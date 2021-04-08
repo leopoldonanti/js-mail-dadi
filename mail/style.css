@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  width: 100%;
+  height: 100%;
+  background-image: url(img/);
+  margin-top: 80px;
+}
+
+#sfera{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  padding-top: 18%;
+  background-image: linear-gradient(red, yellow);
+  margin: auto;
+}
+
+#output{
+/*   background-color: rgb(13, 150, 255);
+ */  line-height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
