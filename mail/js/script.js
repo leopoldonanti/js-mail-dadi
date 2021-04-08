@@ -37,3 +37,4 @@ if(trovata){
 }
 
 document.getElementById("output").innerHTML=" Bella " + nome + " 666 dei nostri";
+
