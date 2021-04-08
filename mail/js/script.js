@@ -31,10 +31,11 @@ for(var i=0; i<elencoMail.length; i++){
   }
 }
 if(trovata){
-  console.log("Sei dei nostri BRUH")
+  console.log("Sei dei nostri BRUH");
+  document.getElementById("output").innerHTML=" Bella " + nome + " 666 dei nostri";
 }else{
   console.log("666 FUORI cocco")
+  document.getElementById("output").innerHTML=" Aooo " + nome + " non 666 dei nostri";
 }
 
-document.getElementById("output").innerHTML=" Bella " + nome + " 666 dei nostri";
 
